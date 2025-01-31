@@ -1,0 +1,142 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    background: black;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #39FF14;
+}
+
+/* Center Name and Info */
+.hero-content {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.popup-target {
+    font-size: 2.5rem;
+    color: hsl(110, 65%, 53%);
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #aaa;
+    margin-top: 10px;
+}
+
+/* Social Icons */
+.social-links {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.social-links a {
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.social-links img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+/* Section Styling */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Profile Image */
+.profile img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Grid Layout for Education & Projects */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+/* Cards */
+.card {
+    background: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.card h3 {
+    color: #39FF14;
+}
+
+.card p {
+    color: #ccc;
+}
+
+/* Hover Effect on Education & Projects */
+.hover-effect {
+    transition: background 0.5s ease-in-out;
+}
+
+.hover-effect:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Hover Effect for Each Card */
+.card:hover {
+    transform: scale(1.05);
+    background: #5d9e52;
+    color: black;
+}
+
+/* Contact Form */
+form input, form textarea {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    background: #39FF14;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
