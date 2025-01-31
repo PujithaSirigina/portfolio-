@@ -1,4 +1,9 @@
 # portfolio-
+ NAME: Pujitha Sirigina
+ COMPANY:COTECH IT SOLUTIONS 
+ DURATION: Jan 05,2025 TO Feb 5,2025 
+ DOMAIN:FRONTEND WEB DEVELOPMENT
+ Intern ID :CTO8IRK
 ![image](https://github.com/user-attachments/assets/a0b5f1cc-2d42-490e-81e6-fc20e508b1a4)
 Portfolio Website – Pujitha Sirigina
 This is my personal portfolio website, designed to showcase my skills, projects, and academic background. As a final-year Computer Science student at VIT-AP University, I am passionate about technology and problem-solving. The website serves as a digital representation of my professional journey, where I highlight my enthusiasm for learning and innovation.
